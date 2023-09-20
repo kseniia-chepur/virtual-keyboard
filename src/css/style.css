@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
+}
+
+body {  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('../assets/v748.jpg') no-repeat;
+  background-size: cover;
+}
+
+.keyboard {
+  width: 790px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 3px;
+  
+}
+.textarea{
+  margin: 30px auto 5px;
+  width: 760px;
+  min-height: 200px;
+}
+
+.info{
+  font-size: 15px;
+  color: #4c4e74;    
+}
+
+.btn {
+  background: #4c4e74;  
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: #e1e1db;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 100ms ease-in-out;
+}
+
+.btn:hover:not(.active) {
+  opacity: 0.6;
+}
+
+.system {
+  background: #307280; 
+}
+
+.ControlRight {
+  width: 50px;
+}
+
+.Backspace {
+  width: 110px;
+}
+.Tab{
+  width: 50px;
+ }
+
+.ShiftLeft {
+  width: 100px;
+}
+
+.ShiftRight{
+  width: 100px;
+}
+
+.Delete {
+  width: 50px;
+}
+
+.Enter{
+  flex-grow: 1;
+}
+
+.CapsLock{
+  width: 100px;
+}
+
+.Space{
+  flex-grow: 1;
+}
+
+.indicator {
+  width: 5px;
+  height: 5px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background: yellow;
+}  
+
+.active{
+  background: #b65565; 
+  transform: scale(1.1);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.Enter.active, .ShiftLeft.active, .ShiftRight.active, .CapsLock.active, .Backspace.active {
+  transform: scale(1.06);
+}
+
+.Space.active {
+  transform: scale(1.025);
+}
+

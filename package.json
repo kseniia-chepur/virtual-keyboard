@@ -1,0 +1,32 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "description": "Virtual keyboard for Windows",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rolling-scopes-school/kseniia-chepur-JSFELT2022Q3.git"
+  },
+  "keywords": [
+    "virtual-keyboard"
+  ],
+  "author": "Kseniya Chepur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/kseniia-chepur-JSFELT2022Q3/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/kseniia-chepur-JSFELT2022Q3#readme",
+  "dependencies": {
+    "editorconfig": "^1.0.1",
+    "http-server": "^14.1.1",
+    "local-web-server": "^5.2.1"
+  }
+}
