@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('../assets/v748.jpg') no-repeat;
+  background: url('../assets/bg.jpg') no-repeat;
   background-size: cover;
 }
 
