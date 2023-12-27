@@ -30,11 +30,11 @@ body {
 
 .info{
   font-size: 15px;
-  color: #4c4e74;    
+  color: #4c4e74;
 }
 
 .btn {
-  background: #4c4e74;  
+  background: #4c4e74;
   margin: 5px;
   width: 40px;
   height: 40px;
@@ -97,7 +97,7 @@ body {
   height: 5px;
   margin-left: 10px;
   border-radius: 50%;
-  background: yellow;
+  background: #ffff00;
 }  
 
 .active{
@@ -114,3 +114,19 @@ body {
   transform: scale(1.025);
 }
 
+.footer {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 600;
+  color: #4c4e74;
+  position: fixed;
+  bottom: 10px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link:active {
+  color:#b65565; 
+}
